@@ -1,2 +1,2 @@
 # HttpFlooder
-Java script http raw method
+Java http raw script
