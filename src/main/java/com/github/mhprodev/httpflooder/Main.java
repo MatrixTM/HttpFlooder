@@ -44,7 +44,7 @@ public class Main {
             while (timer > 0) {
                 timer -= 1;
                 Thread.sleep(1000);
-                System.out.printf("PPS: %d CPS: %d\n", Main.pps, Main.cps);
+                System.out.printf("PPS: %d CPS: %d Time Remaining: %d\n", Main.pps, Main.cps, timer);
                 Main.pps = 0;
                 Main.cps = 0;
             }
